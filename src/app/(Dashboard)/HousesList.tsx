@@ -1,6 +1,6 @@
 "use client";
 
-import ErrorComponent from "@/components/Errorcomponent";
+import ErrorComponent from "@/components/ErrorComponent";
 import HouseCard from "@/components/HouseCard";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
 import { fetchHousesWithSwornMembers } from "@/hooks/useHousesWithSwornMembers";
