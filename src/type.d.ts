@@ -1,10 +1,10 @@
-interface SwornMemberInfo {
+declare type SwornMemberInfo = {
   name: string;
   isAlive: boolean;
   deathInfo: string | null;
-}
+};
 
-interface LoyalMember {
+declare type LoyalMember = {
   url: string;
   name: string;
   gender: string;
@@ -21,14 +21,14 @@ interface LoyalMember {
   povBooks: string[];
   tvSeries: string[];
   playedBy: string[];
-}
+};
 
-interface NobleHouse {
+declare type NobleHouse = {
   name: string;
   swornMembers: SwornMemberInfo[] | string;
-}
+};
 
-interface HouseInfo {
+declare type HouseInfo = {
   url: string;
   name: string;
   region: string;
@@ -45,4 +45,4 @@ interface HouseInfo {
   ancestralWeapons: string[];
   cadetBranches: string[];
   swornMembers: string[];
-}
+};
