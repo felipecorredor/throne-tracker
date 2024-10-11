@@ -1,10 +1,10 @@
 "use client";
 
 import ErrorComponent from "@/components/ErrorComponent";
-import HouseCard from "@/components/HouseCard";
 import LoadingSkeleton from "@/components/LoadingSkeleton";
 import { fetchHousesWithSwornMembers } from "@/hooks/useHousesWithSwornMembers";
 import { useQuery } from "@tanstack/react-query";
+import HouseCard from "./HouseCard";
 
 const HousesList = () => {
   const {

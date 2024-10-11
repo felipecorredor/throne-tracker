@@ -6,7 +6,7 @@ import {
 } from "@tanstack/react-query";
 
 import { fetchHousesWithSwornMembers } from "@/hooks/useHousesWithSwornMembers";
-import HousesList from "@/app/(Dashboard)/HousesList";
+import HousesList from "./components/HousesList";
 
 export default async function HomePage() {
   const queryClient = new QueryClient();

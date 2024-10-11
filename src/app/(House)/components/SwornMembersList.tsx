@@ -1,4 +1,4 @@
-import SwornMemberItem from "@/components/SwornMemberItem";
+import SwornMemberItem from "./SwornMemberItem";
 
 interface SwornMembersListProps {
   swornMembers: SwornMemberInfo[] | string;

@@ -1,4 +1,4 @@
-import Avatar from "./Avatar";
+import Avatar from "@/components/Avatar";
 import MemberInfo from "./MemberInfo";
 
 interface SwornMemberItemProps {
@@ -12,7 +12,7 @@ const SwornMemberItem: React.FC<SwornMemberItemProps> = ({ member }) => {
       <MemberInfo
         name={member.name}
         isAlive={member.isAlive}
-        deathInfo={member?.deathInfo}
+        deathInfo={member.deathInfo}
       />
     </li>
   );
