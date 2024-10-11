@@ -22,7 +22,7 @@ const SwornMembersList: React.FC<SwornMembersListProps> = ({
               <div>
                 <p className="font-medium text-gray-800">{member.name}</p>
                 <p className="text-sm text-gray-500">
-                  {member.isAlive ? "Vivo" : `Muerto (${member.deathInfo})`}
+                  {member.isAlive ? "Alive" : `Dead (${member.deathInfo})`}
                 </p>
               </div>
             </li>
