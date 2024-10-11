@@ -16,7 +16,7 @@ const fetchHousesWithSwornMembers = async (): Promise<Array<NobleHouse>> => {
           const memberResponse = await fetch(url);
 
           if (!memberResponse.ok) {
-            throw new Error("Error al obtener el miembro");
+            throw new Error("Error getting the member");
           }
 
           const member = (await memberResponse.json()) as LoyalMember;
