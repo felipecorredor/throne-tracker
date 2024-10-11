@@ -1,4 +1,3 @@
-// app/posts/page.jsx
 import {
   dehydrate,
   HydrationBoundary,
