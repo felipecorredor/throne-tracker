@@ -20,9 +20,6 @@ export default async function HomePage() {
     // Neat! Serialization is now as easy as passing props.
     // HydrationBoundary is a Client Component, so hydration will happen there.
     <HydrationBoundary state={dehydrate(queryClient)}>
-      <h1 className="text-3xl font-semibold text-center mt-8">
-        Universe of Ice And Fire
-      </h1>
       <HousesList />
     </HydrationBoundary>
   );

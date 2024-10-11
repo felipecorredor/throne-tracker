@@ -34,7 +34,7 @@ const fetchHousesWithSwornMembers = async (): Promise<Array<NobleHouse>> => {
         swornMembers:
           swornMembers.length > 0
             ? swornMembers
-            : "Esta casa no tiene miembros juramentados",
+            : "This house has no sworn members",
       } as NobleHouse;
     })
   );

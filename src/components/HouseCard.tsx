@@ -14,7 +14,7 @@ const HouseCard: React.FC<HouseCardProps> = ({ house }) => {
 
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-4 text-gray-800">
-          Miembros Juramentados:
+          Sworn Members:
         </h3>
         <SwornMembersList swornMembers={house.swornMembers} />
       </div>
