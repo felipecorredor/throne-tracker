@@ -4,7 +4,7 @@ const fetchHousesWithSwornMembers = async (): Promise<Array<NobleHouse>> => {
   );
 
   if (!response.ok) {
-    throw new Error("Error al obtener las casas");
+    throw new Error("Error getting the houses");
   }
 
   const houses = (await response.json()) as Array<HouseInfo>;
